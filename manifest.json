@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Enhancing Minecraft visuals with smooth lighting, vibrant colors, and immersive atmosphere.By XiaoCraft.",
+    "name": "Unbound Visuals",
+    "uuid": "434ebdf1-1cf3-4454-add4-140b271fcef0",
+    "version": [1, 3, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    {
+      "description": "Unbound Visuals Shader Module",
+      "type": "resources",
+      "uuid": "bc37df76-872f-4929-b8e3-8b067c9e144e",
+      "version": [1, 3, 0]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ]
+}

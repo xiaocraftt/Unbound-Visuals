@@ -1,0 +1,60 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "va:desert_fog"
+    },
+
+    "distance": {
+      "air": {
+        "fog_start": 0.94,
+        "fog_end": 1.0,
+        "fog_color": "#F0D9AF",
+        "render_distance_type": "render"
+      },
+
+      "water": {
+        "fog_start": 0.0,
+        "fog_end": 120.0,
+        "fog_color": "#A8774A",
+        "render_distance_type": "fixed"
+      },
+
+      "weather": {
+        "fog_start": 0.90,
+        "fog_end": 1.0,
+        "fog_color": "#CBB48E",
+        "render_distance_type": "render"
+      }
+    },
+
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.024,
+          "uniform": false,
+          "max_density_height": 95,
+          "zero_density_height": 210
+        },
+
+        "weather": {
+          "max_density": 0.20,
+          "uniform": true
+        }
+      },
+
+      "media_coefficients": {
+        "air": {
+          "scattering": [0.060, 0.052, 0.040],
+          "absorption": [0.018, 0.014, 0.010]
+        }
+      },
+
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.52
+        }
+      }
+    }
+  }
+}
