@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:lighting_settings": {
+    "description": {
+      "identifier": "va:basalt_lighting"
+    },
+
+    "directional_lights": {
+      "sun": {
+        "illuminance": {
+          "0.0": 95
+        },
+        "color": [255, 135, 80]
+      },
+      "moon": {
+        "illuminance": {
+          "0.0": 55
+        },
+        "color": [210, 215, 220]
+      }
+    },
+
+    "ambient": {
+      "illuminance": 1.10,
+      "color": [155, 105, 75]
+    },
+
+    "sky": {
+      "intensity": 0.60
+    }
+  }
+}
