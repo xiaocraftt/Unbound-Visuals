@@ -3,7 +3,7 @@
   "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
-      "identifier": "soul_sand_valley"
+      "identifier": "soulsand_valley"
     },
     "components": {
       "minecraft:fog_appearance": {
